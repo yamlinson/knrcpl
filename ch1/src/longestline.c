@@ -18,7 +18,7 @@ int main() {
         }
     }
     if (max > 0)
-        printf("%s", longest);
+        printf("%d: %s", max, longest);
     return 0;
 }
 
