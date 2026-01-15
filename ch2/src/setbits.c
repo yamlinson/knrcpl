@@ -3,7 +3,8 @@
 unsigned setbits(unsigned x, int p, int n, unsigned y);
 
 int main() {
-    int x, p, n, y, z;
+    unsigned x, y, z;
+    int p, n;
 
     x = 71;
     p = 4;
