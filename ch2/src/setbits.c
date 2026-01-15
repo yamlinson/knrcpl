@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int setbits(int x, int p, int n, int y);
+unsigned setbits(unsigned x, int p, int n, unsigned y);
 
 int main() {
     int x, p, n, y, z;
@@ -29,7 +29,7 @@ int main() {
     return 0;
 }
 
-int setbits(int x, int p, int n, int y) {
+unsigned setbits(unsigned x, int p, int n, unsigned y) {
     /* Mask y and set to correct position */
     y = (y & ~(~0 << n)) << (p+1-n);
     /* Mask x to create 0s for y overlay */
