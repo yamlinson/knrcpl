@@ -3,7 +3,8 @@
 unsigned invert(unsigned x, int p, int n);
 
 int main() {
-    int x, p, n, y;
+    unsigned x, y;
+    int p, n;
 
     x = 170;
     p = 5;
